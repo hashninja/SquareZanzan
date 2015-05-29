@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE478EB61B15B9A6009B2788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EB51B15B9A6009B2788 /* AppDelegate.swift */; };
+		CE478EBA1B15B9A6009B2788 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EB91B15B9A6009B2788 /* GameScene.swift */; };
+		CE478EBC1B15B9A6009B2788 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EBB1B15B9A6009B2788 /* GameViewController.swift */; };
+		CE478EBF1B15B9A6009B2788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE478EBD1B15B9A6009B2788 /* Main.storyboard */; };
+		CE478EC11B15B9A6009B2788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE478EC01B15B9A6009B2788 /* Images.xcassets */; };
+		CE478EC41B15B9A6009B2788 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE478EC21B15B9A6009B2788 /* LaunchScreen.xib */; };
+		CE478ED01B15B9A6009B2788 /* SquareZanzanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478ECF1B15B9A6009B2788 /* SquareZanzanTests.swift */; };
+		CE478EDA1B15B9B8009B2788 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478ED91B15B9B8009B2788 /* Level.swift */; };
+		CE478EDC1B15BB52009B2788 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EDB1B15BB52009B2788 /* Array2D.swift */; };
+		CE478EDE1B15BC9E009B2788 /* Brick.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EDD1B15BC9E009B2788 /* Brick.swift */; };
+		CE478EE31B15C4DF009B2788 /* UnitedBricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE478EE21B15C4DF009B2788 /* UnitedBricks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE478ECA1B15B9A6009B2788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE478EA81B15B9A6009B2788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE478EAF1B15B9A6009B2788;
+			remoteInfo = SquareZanzan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE478EB01B15B9A6009B2788 /* SquareZanzan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareZanzan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE478EB41B15B9A6009B2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE478EB51B15B9A6009B2788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE478EB91B15B9A6009B2788 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CE478EBB1B15B9A6009B2788 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CE478EBE1B15B9A6009B2788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE478EC01B15B9A6009B2788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE478EC31B15B9A6009B2788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CE478EC91B15B9A6009B2788 /* SquareZanzanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareZanzanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE478ECE1B15B9A6009B2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE478ECF1B15B9A6009B2788 /* SquareZanzanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareZanzanTests.swift; sourceTree = "<group>"; };
+		CE478ED91B15B9B8009B2788 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		CE478EDB1B15BB52009B2788 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2D.swift; path = SquareZanzan/Array2D.swift; sourceTree = "<group>"; };
+		CE478EDD1B15BC9E009B2788 /* Brick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brick.swift; sourceTree = "<group>"; };
+		CE478EE21B15C4DF009B2788 /* UnitedBricks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitedBricks.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE478EAD1B15B9A6009B2788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE478EC61B15B9A6009B2788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE478EA71B15B9A6009B2788 = {
+			isa = PBXGroup;
+			children = (
+				CE478EDF1B15BCCE009B2788 /* FrameWork */,
+				CE478EB21B15B9A6009B2788 /* SquareZanzan */,
+				CE478ECC1B15B9A6009B2788 /* SquareZanzanTests */,
+				CE478EB11B15B9A6009B2788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE478EB11B15B9A6009B2788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE478EB01B15B9A6009B2788 /* SquareZanzan.app */,
+				CE478EC91B15B9A6009B2788 /* SquareZanzanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE478EB21B15B9A6009B2788 /* SquareZanzan */ = {
+			isa = PBXGroup;
+			children = (
+				CE478EB51B15B9A6009B2788 /* AppDelegate.swift */,
+				CE478EBB1B15B9A6009B2788 /* GameViewController.swift */,
+				CE478EB91B15B9A6009B2788 /* GameScene.swift */,
+				CE478ED91B15B9B8009B2788 /* Level.swift */,
+				CE478EDD1B15BC9E009B2788 /* Brick.swift */,
+				CE478EE21B15C4DF009B2788 /* UnitedBricks.swift */,
+				CE478EBD1B15B9A6009B2788 /* Main.storyboard */,
+				CE478EC01B15B9A6009B2788 /* Images.xcassets */,
+				CE478EC21B15B9A6009B2788 /* LaunchScreen.xib */,
+				CE478EB31B15B9A6009B2788 /* Supporting Files */,
+			);
+			path = SquareZanzan;
+			sourceTree = "<group>";
+		};
+		CE478EB31B15B9A6009B2788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE478EB41B15B9A6009B2788 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE478ECC1B15B9A6009B2788 /* SquareZanzanTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE478ECF1B15B9A6009B2788 /* SquareZanzanTests.swift */,
+				CE478ECD1B15B9A6009B2788 /* Supporting Files */,
+			);
+			path = SquareZanzanTests;
+			sourceTree = "<group>";
+		};
+		CE478ECD1B15B9A6009B2788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE478ECE1B15B9A6009B2788 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE478EDF1B15BCCE009B2788 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				CE478EDB1B15BB52009B2788 /* Array2D.swift */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE478EAF1B15B9A6009B2788 /* SquareZanzan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE478ED31B15B9A6009B2788 /* Build configuration list for PBXNativeTarget "SquareZanzan" */;
+			buildPhases = (
+				CE478EAC1B15B9A6009B2788 /* Sources */,
+				CE478EAD1B15B9A6009B2788 /* Frameworks */,
+				CE478EAE1B15B9A6009B2788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareZanzan;
+			productName = SquareZanzan;
+			productReference = CE478EB01B15B9A6009B2788 /* SquareZanzan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE478EC81B15B9A6009B2788 /* SquareZanzanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE478ED61B15B9A6009B2788 /* Build configuration list for PBXNativeTarget "SquareZanzanTests" */;
+			buildPhases = (
+				CE478EC51B15B9A6009B2788 /* Sources */,
+				CE478EC61B15B9A6009B2788 /* Frameworks */,
+				CE478EC71B15B9A6009B2788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE478ECB1B15B9A6009B2788 /* PBXTargetDependency */,
+			);
+			name = SquareZanzanTests;
+			productName = SquareZanzanTests;
+			productReference = CE478EC91B15B9A6009B2788 /* SquareZanzanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE478EA81B15B9A6009B2788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ToBe;
+				TargetAttributes = {
+					CE478EAF1B15B9A6009B2788 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CE478EC81B15B9A6009B2788 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CE478EAF1B15B9A6009B2788;
+					};
+				};
+			};
+			buildConfigurationList = CE478EAB1B15B9A6009B2788 /* Build configuration list for PBXProject "SquareZanzan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE478EA71B15B9A6009B2788;
+			productRefGroup = CE478EB11B15B9A6009B2788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE478EAF1B15B9A6009B2788 /* SquareZanzan */,
+				CE478EC81B15B9A6009B2788 /* SquareZanzanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE478EAE1B15B9A6009B2788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE478EC41B15B9A6009B2788 /* LaunchScreen.xib in Resources */,
+				CE478EC11B15B9A6009B2788 /* Images.xcassets in Resources */,
+				CE478EBF1B15B9A6009B2788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE478EC71B15B9A6009B2788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE478EAC1B15B9A6009B2788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE478EBA1B15B9A6009B2788 /* GameScene.swift in Sources */,
+				CE478EBC1B15B9A6009B2788 /* GameViewController.swift in Sources */,
+				CE478EDA1B15B9B8009B2788 /* Level.swift in Sources */,
+				CE478EE31B15C4DF009B2788 /* UnitedBricks.swift in Sources */,
+				CE478EB61B15B9A6009B2788 /* AppDelegate.swift in Sources */,
+				CE478EDC1B15BB52009B2788 /* Array2D.swift in Sources */,
+				CE478EDE1B15BC9E009B2788 /* Brick.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE478EC51B15B9A6009B2788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE478ED01B15B9A6009B2788 /* SquareZanzanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE478ECB1B15B9A6009B2788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE478EAF1B15B9A6009B2788 /* SquareZanzan */;
+			targetProxy = CE478ECA1B15B9A6009B2788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE478EBD1B15B9A6009B2788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE478EBE1B15B9A6009B2788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE478EC21B15B9A6009B2788 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE478EC31B15B9A6009B2788 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE478ED11B15B9A6009B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE478ED21B15B9A6009B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE478ED41B15B9A6009B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquareZanzan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE478ED51B15B9A6009B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SquareZanzan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE478ED71B15B9A6009B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SquareZanzanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareZanzan.app/SquareZanzan";
+			};
+			name = Debug;
+		};
+		CE478ED81B15B9A6009B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SquareZanzanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareZanzan.app/SquareZanzan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE478EAB1B15B9A6009B2788 /* Build configuration list for PBXProject "SquareZanzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE478ED11B15B9A6009B2788 /* Debug */,
+				CE478ED21B15B9A6009B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE478ED31B15B9A6009B2788 /* Build configuration list for PBXNativeTarget "SquareZanzan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE478ED41B15B9A6009B2788 /* Debug */,
+				CE478ED51B15B9A6009B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE478ED61B15B9A6009B2788 /* Build configuration list for PBXNativeTarget "SquareZanzanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE478ED71B15B9A6009B2788 /* Debug */,
+				CE478ED81B15B9A6009B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE478EA81B15B9A6009B2788 /* Project object */;
+}
